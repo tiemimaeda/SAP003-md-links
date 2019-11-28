@@ -1,10 +1,10 @@
 {
-  "name": "sap003-md-links",
+  "name": "md-links",
   "version": "1.0.0",
   "description": "Biblioteca desenvolvida para o projeto markdown, turma SAP 003, Laboratoria-Br ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,10 +16,11 @@
     "url": "https://github.com/tiemimaeda/SAP003-md-links/issues"
   },
   "homepage": "https://github.com/tiemimaeda/SAP003-md-links#readme",
-  "directories": {
-    "lib": "lib"
-  },
   "dependencies": {
-    "eslint": "^6.7.1"
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0"
+  },
+  "bin": {
+    "md-links": "./cli.js"
   }
 }

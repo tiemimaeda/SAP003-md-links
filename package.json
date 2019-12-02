@@ -2,7 +2,7 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "Biblioteca desenvolvida para o projeto markdown, turma SAP 003, Laboratoria-Br ",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest --coverage"
   },
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/tiemimaeda/SAP003-md-links#readme",
   "dependencies": {
     "eslint": "^6.7.1",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "npm": "^6.13.1"
   },
   "bin": {
-    "md-links": "./cli.js"
+    "md-links": "cli.js"
   }
 }

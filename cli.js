@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const mdLinks = require("./lib/index.js");
-// const file = "README.md";
 const file = process.argv[2];
 
 mdLinks(file)
